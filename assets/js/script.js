@@ -1,5 +1,5 @@
 function darkMode() {
-    var element = document.getElementsByTagName("header")[0];
+    var header = document.getElementsByTagName("header")[0];
     var btns = document.getElementsByTagName("button");
     var shape_container = document.getElementsByClassName("shape-container")[0];
     var intro_sec = document.getElementsByClassName("d-flex-center")[0];
@@ -16,7 +16,7 @@ function darkMode() {
     var sub_topic = document.getElementsByClassName("sub-topic-sec")[0];
     var sub_topic_divs = document.querySelectorAll(".sub-topic-sec div");
 
-    element.classList.toggle("dark-mode-bg");
+    header.classList.toggle("dark-mode-bg");
     shape_container.classList.toggle("dark-mode-bg");
     intro_sec.classList.toggle("dark-mode-bg");
 

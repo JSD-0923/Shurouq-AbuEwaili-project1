@@ -1,0 +1,16 @@
+:root {
+    --brand-primary: #0768AC;
+    --brand-secondary: #03C180;
+    --bg_default: #FFFFFF;
+    --bg_body: #F0F9FF;
+    --lines-color: #DDDDDD;
+    --body-text: #333333;
+    --heart-color: #DC143C;
+    --star-color: #fff;
+    --star-background: #f79822;
+    --d_bg_default: #1A1A1A;
+    --d_bg_body: #282828;
+    --d_lines-color: #000000;
+    --d_body-text: #EDEDED;
+    --star-size: 1.5rem;
+}
