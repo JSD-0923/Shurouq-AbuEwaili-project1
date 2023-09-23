@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Topics</title>
+
+    <!-- link css stylesheet files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- link external icons -->
+    <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+    <!-- font family -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <!-- nav start -->
+        <nav class="container">
+            <h3 class="logo">Web Topics</h3>
+            <div class="btns">
+                <button id="dark_mode_btn" class="icon-button" onclick="darkMode()">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <span id="dark_mode_btn_text" class="button-text">Dark mode</span>
+                </button>
+                <button id="showHideFav" class="icon-button"><ion-icon name="heart-outline"></ion-icon><span
+                        class="button-text">Favourites</span></button>
+            </div>
+        </nav>
+        <!-- nav end -->
+    </header>
+    <!-- header end -->
+
+    <!-- introduction start -->
+    <div class="introduction">
+        <!-- shape-container start -->
+        <div class="shape-container">
+            <div class="left-shape"></div>
+            <div class="right-shape"></div>
+        </div>
+        <!-- shape-container end -->
+
+        <!-- welcome-section start -->
+        <div class="d-flex-center">
+            <div class="welcome-section">
+                <p class="big-text">Welcome to our website!</p>
+                <p class="small-text">We have a new design that's fresh, modern, and easy to use.</p>
+            </div>
+        </div>
+        <!-- welcome-section end -->
+    </div>
+
+    <!-- introduction end -->
+    <div class="light-mode-bg">
+        <div class="grid-container">
+            <div class="top-sec">
+                <div class="container2">
+                    <div class="topic-info">
+
+                        <!-- text section start -->
+                        <div class="text-sec">
+                            <span>Web development languages</span>
+                            <h2>HTML</h2>
+                            <div class="stars" style="--rating: 3.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+
+                            <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages and other information that can be displayed in a web browser. It provides a structure for content and defines how it should be displayed
+                                on a web page, including text, images, and multimedia. HTML is essential for creating static web pages and is a foundational technology for the World Wide Web.</p>
+                        </div>
+                        <!-- text section start -->
+                    </div>
+                    <div class="topic-card">
+                        <div class="fav-card">
+                            <div class="card-img">
+                                <img src="assets/images/Logos/javascript.jpg" alt="image">
+                            </div>
+                            <div class="card-content">
+                                <div class="card-text">
+                                    <p><strong>HTML</strong> by
+                                        <a href="https://google.com">Sarah smith</a>
+                                    </p>
+                                </div>
+                                <div class="add-fav-sec">
+                                    <div class="add-fav-text">
+                                        <p>Interested about this topic?</p>
+                                    </div>
+                                    <div class="add-fav-button">
+                                        <button>Add to Favorite <ion-icon name="heart-outline"></ion-icon></button>
+                                    </div>
+                                    <span>Unlimuted credit</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-sec">
+                <div class="container2">
+                    <div class="sub-topic-sec">
+                        <div>
+                            HTML Sub topics
+
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                        <div>
+                            <ion-icon class="checkmark-circle-outline" name="checkmark-circle-outline"></ion-icon> HTML syntax and structure
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer start -->
+        <footer class="d-flex-center">
+
+            <p>Developed by ❤️️ 2023</p>
+        </footer>
+        <!-- footer end -->
+    </div>
+    <!-- favourites-section start-->
+    <div class="favourites-section" style="display: none;">
+        <div class="container">
+            <h4>My Favourite topics</h4>
+            <!-- fav-card-list start-->
+            <div class="fav-cards-list">
+                <!--fav-card start-->
+                <div class="fav-card">
+                    <div class="fav-card-img">
+                        <img src="assets/images/Logos/react.webp" alt="image ">
+                    </div>
+                    <!--fav-card-content start-->
+                    <div class="fav-card-content">
+                        <div class="fav-card-text">
+                            <strong>CSS</strong>
+                        </div>
+                        <div class="fav-stars" style="--rating: 3.5;" aria-label="Rating of this product is 2.3 out of 5."></div>
+                    </div>
+                    <!--fav-card-content end-->
+                </div>
+                <!--fav-card end-->
+            </div>
+            <!--fav-card-list end-->
+        </div>
+    </div>
+    <!--  favourites-section end-->
+    <!-- link scripts files -->
+    <script src="assets/js/script.js "></script>
+</body>
+
+</html>
